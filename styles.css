@@ -1,0 +1,117 @@
+html #home-page,
+body #home-page {
+  background: #2e3031 !important;
+}
+
+.site-content {
+  background: #2e3031 !important;
+}
+
+#primary {
+  background: #2e3031 !important;
+}
+
+.article--viewer_content .a-wrapper .content {
+  background: #2e3031 !important;
+}
+
+.gfg-footer .footer-wrapper {
+  background: #222424 !important;
+}
+
+.header-main__container {
+  background: #1f2121 !important;
+}
+
+.main_wrapper {
+  background: #2e3031 !important;
+}
+
+body.page .wrapper {
+  background: #2e3031 !important;
+}
+#main {
+  background: #2e3031 !important;
+}
+
+.page {
+  background: #2e3031 !important;
+}
+
+.wrapper {
+  background: #2e3031 !important;
+}
+
+.rightBar {
+  background: #2e3031 !important;
+}
+
+.article--recommended {
+  background: #222424 !important;
+}
+
+.top-bar-title {
+  background-color: transparent !important;
+}
+
+.sidebar_wrapper {
+  background: #2e3031 !important;
+}
+.rightBar {
+  background: #2e3031 !important;
+}
+
+.article--viewer_content .a-wrapper .content .text pre {
+  background: #222424 !important;
+  color: white;
+}
+
+.sideBar {
+  opacity: 0 !important;
+  transition: opacity 0.5s ease !important;
+}
+
+.sideBar:hover {
+  opacity: 1 !important;
+  transition: opacity 0.5s ease !important;
+}
+
+#hslider {
+  opacity: 0 !important;
+  transition: opacity 0.5s ease !important;
+}
+
+#hslider:hover {
+  opacity: 1 !important;
+  transition: opacity 0.5s ease !important;
+}
+
+.widget-area {
+  opacity: 0 !important;
+  transition: opacity 0.5s ease !important;
+}
+
+.widget-area:hover {
+  opacity: 1 !important;
+  transition: opacity 0.5s ease !important;
+}
+
+.article--viewer_content a {
+  color: #3685ec !important;
+}
+
+a {
+  color: #3685ec !important;
+}
+
+.currentpage a {
+  color: #3685ec !important;
+}
+
+::selection {
+  background-color: #3b85d5 !important;
+}
+
+::-moz-selection {
+  background-color: #3b85d5 !important;
+}
