@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "GFGReader",
-  "version": "0.0.1",
-  "description": "Distraction-Free Reading for Geeksforgeeks",
+  "name": "GFGReader - Clean Interface & Dark Theme",
+  "version": "0.0.2",
+  "description": "Distraction-Free Reading for Geeksforgeeks, complete with a sleek dark theme",
   "content_scripts": [
     {
       "matches": ["https://*.geeksforgeeks.org/*"],

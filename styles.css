@@ -1,69 +1,125 @@
-html #home-page,
-body #home-page {
-  background: #2e3031 !important;
+[data-dark-mode="true"] {
+  html #home-page,
+  body #home-page {
+    background: #2e3031 !important;
+  }
+
+  .site-content {
+    background: #2e3031 !important;
+  }
+
+  #primary {
+    background: #2e3031 !important;
+  }
+
+  .article--viewer_content .a-wrapper .content {
+    background: #2e3031 !important;
+  }
+
+  .gfg-footer .footer-wrapper {
+    background: #222424 !important;
+  }
+
+  .header-main__container {
+    background: #1f2121 !important;
+  }
+
+  .main_wrapper {
+    background: #2e3031 !important;
+  }
+
+  body.page .wrapper {
+    background: #2e3031 !important;
+  }
+
+  #main {
+    background: #2e3031 !important;
+  }
+
+  .page {
+    background: #2e3031 !important;
+  }
+
+  .wrapper {
+    background: #2e3031 !important;
+  }
+
+  .rightBar {
+    background: #2e3031 !important;
+  }
+
+  .article--recommended {
+    background: #222424 !important;
+  }
+
+  .top-bar-title {
+    background-color: transparent !important;
+  }
+
+  #hslider {
+    /* opacity: 0.5 !important; */
+    transition: opacity 0.5s ease !important;
+  }
+
+  #hslider:hover {
+    /* opacity: 1 !important; */
+    transition: opacity 0.5s ease !important;
+  }
+
+  #hslider a {
+    opacity: 0.5 !important;
+    color: white !important;
+  }
+
+  #hslider a:hover {
+    color: #3685ec !important;
+    opacity: 1 !important;
+  }
+
+  .sidebar_wrapper {
+    background: #2e3031 !important;
+  }
+  .rightBar {
+    background: #2e3031 !important;
+  }
+
+  .article--viewer_content .a-wrapper .content .text pre {
+    background: #222424 !important;
+    color: white;
+  }
 }
 
-.site-content {
-  background: #2e3031 !important;
-}
+[data-dark-mode="false"] {
+  html #home-page,
+  body #home-page {
+    color: rgba(0, 0, 0, 0.8) !important;
+  }
 
-#primary {
-  background: #2e3031 !important;
-}
+  .site-content {
+    color: rgba(0, 0, 0, 0.8) !important;
+  }
 
-.article--viewer_content .a-wrapper .content {
-  background: #2e3031 !important;
-}
+  #primary {
+    color: rgba(0, 0, 0, 0.8) !important;
+  }
 
-.gfg-footer .footer-wrapper {
-  background: #222424 !important;
-}
+  #hslider {
+    opacity: 0.7 !important;
+    transition: opacity 0.5s ease !important;
+  }
 
-.header-main__container {
-  background: #1f2121 !important;
-}
+  #hslider:hover {
+    opacity: 1 !important;
+    transition: opacity 0.5s ease !important;
+  }
 
-.main_wrapper {
-  background: #2e3031 !important;
-}
+  #hslider a {
+    color: black !important;
+  }
 
-body.page .wrapper {
-  background: #2e3031 !important;
-}
-#main {
-  background: #2e3031 !important;
-}
-
-.page {
-  background: #2e3031 !important;
-}
-
-.wrapper {
-  background: #2e3031 !important;
-}
-
-.rightBar {
-  background: #2e3031 !important;
-}
-
-.article--recommended {
-  background: #222424 !important;
-}
-
-.top-bar-title {
-  background-color: transparent !important;
-}
-
-.sidebar_wrapper {
-  background: #2e3031 !important;
-}
-.rightBar {
-  background: #2e3031 !important;
-}
-
-.article--viewer_content .a-wrapper .content .text pre {
-  background: #222424 !important;
-  color: white;
+  #hslider a:hover {
+    color: #3685ec !important;
+  }
 }
 
 .sideBar {
@@ -72,16 +128,6 @@ body.page .wrapper {
 }
 
 .sideBar:hover {
-  opacity: 1 !important;
-  transition: opacity 0.5s ease !important;
-}
-
-#hslider {
-  opacity: 0 !important;
-  transition: opacity 0.5s ease !important;
-}
-
-#hslider:hover {
   opacity: 1 !important;
   transition: opacity 0.5s ease !important;
 }
